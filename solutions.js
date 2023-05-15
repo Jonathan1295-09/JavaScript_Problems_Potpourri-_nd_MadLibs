@@ -49,10 +49,17 @@ console.log(disemvowel('This website is for losers LOL!'));
         creditCard: -2000,
     }];
     
-     const bankAccountSummary = bankInfo.reduce((accumalator, item, index) => {
-        return accumalator + index 
-     },)
-console.log(bankAccountSummary)
+     const bankAccountSummary = bankInfo.reduce((accumulator, intialValue,number) => {
+        return accumulator + intialValue,number
+        
+     },1)
+     
+     console.log(bankAccountSummary)
+
+     const inTheRed = 0 <= 0
+        
+        console.log(inTheRed)
      
 
-}
+    }
+    
